@@ -1,0 +1,39 @@
+.header-background {
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    height: 5.5em;
+}
+
+.header-content {
+    width: 205px;
+    height: 60px;
+
+    position: absolute;
+    left: 50%;
+    top: 7%;
+    transform: translate(-50%, -50%);
+}
+
+#header-logo {
+    font-size: 20px;
+    text-align: center;
+}
+
+#image-logo {
+    width: 70px;
+    height: 70px;
+
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#h1-content-header {
+    color: #4CAF50;
+    position: absolute;
+    left: 62%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Poppins", sans-serif;
+}
