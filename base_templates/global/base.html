@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="{% static 'vida_fit/css/header.css' %}">
     <link rel="stylesheet" href="{% static 'vida_fit/css/content.css' %}">
     <link rel="stylesheet" href="{% static 'vida_fit/css/footer.css' %}">
+    <link rel="stylesheet" href="{% static 'vida_fit/css/calculator.css' %}">
     <link rel="shortcut icon" href="{% static 'vida_fit/images/icons/logo.ico' %}" type="image/x-icon">
+    
     <title>{% block title %}Title{% endblock %}</title>
 </head>
 <body>
     {% block content %}
         
     {% endblock %}
+    <script src="{% static 'vida_fit/js/calculator.js' %}"></script>
 </body>
 </html>

@@ -1,0 +1,75 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+} */
+
+.calculator-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    text-align: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+}
+
+#calculator-h2 {
+    color: #2E7D32; /* Título da página */
+    margin-bottom: 20px;
+}
+
+#span-weight {
+    color: rgba(0, 0, 0, 0.636);
+}
+
+#span-height {
+    color: rgba(0, 0, 0, 0.636);
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#calculate-button {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 3s ease;
+}
+
+#calculate-button:hover {
+    background-color: #39853d; /* Efeito de hover */
+    transition: 0.4s;
+}
+
+#result-message {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 5px;
+    display: none;
+}
+
+.baixo-peso { background-color: #ffcccb; color: #d9534f; } /* Baixo peso */
+.peso-normal { background-color: #d4edda; color: #28a745; } /* Peso normal */
+.sobrepeso { background-color: #ffeeba; color: #c09000; } /* Sobrepeso */
+.obesidade { background-color: #f8d7da; color: #dc3545; } /* Obesidade */
