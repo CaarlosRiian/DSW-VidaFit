@@ -1,6 +1,6 @@
 # DSW-VidaFit
 
-## essa atividade conta com duas telas ```Home``` e ```Calculator```, onde o usuário irá informar valores como: ```Peso``` e ```Altura```, e através dos valores informados ele retornará o IMC ( Índice de Massa Corporal ) do usuário.
+## Essa Aplicação conta com duas telas ```Home``` e ```Calculator```, onde o usuário irá informar valores como: ```Peso``` e ```Altura```, e através dos valores informados a aplicação retornará o IMC ( Índice de Massa Corporal ) do usuário.
 
 ## Home
 ![Home - VidaFit](https://github.com/user-attachments/assets/691f7163-6dc8-4faa-b72e-3b92173241b3)
